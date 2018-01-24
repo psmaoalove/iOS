@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CEEDB889201746E30027A3D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEDB888201746E30027A3D6 /* AppDelegate.m */; };
 		CEEDB88C201746E30027A3D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEDB88B201746E30027A3D6 /* ViewController.m */; };
-		CEEDB88F201746E30027A3D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEDB88D201746E30027A3D6 /* Main.storyboard */; };
 		CEEDB891201746E30027A3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEDB890201746E30027A3D6 /* Assets.xcassets */; };
 		CEEDB894201746E30027A3D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEDB892201746E30027A3D6 /* LaunchScreen.storyboard */; };
 		CEEDB897201746E30027A3D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEDB896201746E30027A3D6 /* main.m */; };
@@ -40,7 +39,6 @@
 		CEEDB888201746E30027A3D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CEEDB88A201746E30027A3D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CEEDB88B201746E30027A3D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CEEDB88E201746E30027A3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEEDB890201746E30027A3D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEEDB893201746E30027A3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEEDB895201746E30027A3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 				CEEDB888201746E30027A3D6 /* AppDelegate.m */,
 				CEEDB88A201746E30027A3D6 /* ViewController.h */,
 				CEEDB88B201746E30027A3D6 /* ViewController.m */,
-				CEEDB88D201746E30027A3D6 /* Main.storyboard */,
 				CEEDB890201746E30027A3D6 /* Assets.xcassets */,
 				CEEDB892201746E30027A3D6 /* LaunchScreen.storyboard */,
 				CEEDB895201746E30027A3D6 /* Info.plist */,
@@ -240,7 +237,6 @@
 			files = (
 				CEEDB894201746E30027A3D6 /* LaunchScreen.storyboard in Resources */,
 				CEEDB891201746E30027A3D6 /* Assets.xcassets in Resources */,
-				CEEDB88F201746E30027A3D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +299,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CEEDB88D201746E30027A3D6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEEDB88E201746E30027A3D6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CEEDB892201746E30027A3D6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -434,7 +422,7 @@
 				DEVELOPMENT_TEAM = 7K5F57NR82;
 				INFOPLIST_FILE = ooo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "gdgt.---.ooo";
+				PRODUCT_BUNDLE_IDENTIFIER = "gdgt.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,7 +436,7 @@
 				DEVELOPMENT_TEAM = 7K5F57NR82;
 				INFOPLIST_FILE = ooo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "gdgt.---.ooo";
+				PRODUCT_BUNDLE_IDENTIFIER = "gdgt.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
